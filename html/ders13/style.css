@@ -1,0 +1,33 @@
+
+.cap {
+  margin-top: 0px;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  z-index: 1;
+  background-color: chocolate;
+}
+
+.cap:hover {
+  width: 125px;
+  transform: skewY(-20deg) rotate(20deg) translateY(-105px);
+  margin-left: -35px;
+  height: 100px;
+  width: 100px;
+  z-index: 0;
+  background-color: chocolate;
+  border: 10px solid chocolate;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}

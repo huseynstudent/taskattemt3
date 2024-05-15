@@ -1,0 +1,40 @@
+img {
+      width: 100px;
+      height: 100px;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .box {
+      position: relative;
+      width: 150px;
+      height: 100px;
+      background-color: chocolate;
+    }
+    
+    .lid {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 150px;
+      height: 30px;
+      background-color: chocolate;
+      transform-origin: bottom center; 
+ 
+    }
+    
+    .box:hover .lid {
+      transform: translateY(-20px) rotateX(-30deg);
+    }
+    
+    .pizza {
+      position: relative;
+      width: 100%;
+      height: 70px;
+      overflow: hidden; /* Hide overflowed content (image) */
+    }
